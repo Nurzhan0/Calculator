@@ -9,13 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
     @IBOutlet weak var LabelNumberShow: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    //For new operations
     var newOperation = true
     
     func addNumbersToInpit(number: String){
